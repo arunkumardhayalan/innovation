@@ -1,0 +1,154 @@
+body {
+    background-color: #ffebc2;
+}
+
+.main-header {
+    position: sticky;
+    top: 0;
+    background: #ffebc2;
+    z-index: 9;
+}
+
+.logo {
+    height: 60px;
+}
+
+.grad-box {
+    background: linear-gradient(45deg, #ff7800, #ff8b24);
+    box-shadow: 0px 7px 16px #00000036;
+
+}
+
+.check-net {
+    background-image: url('../images/check-net.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-repeat: repeat;
+    height: 400px;
+}
+
+.add-btn,
+.add-btn:hover {
+    background-color: #ffebc2;
+    border: none;
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.card {
+    .card-content-bg {
+        background-color: #ffeee3;
+        border-radius: 0 0 16px 16px;
+        box-shadow: 0px 7px 10px rgb(0 0 0 / 15%);
+    }
+}
+
+.shadow-box {
+    box-shadow: 0px 7px 10px rgb(0 0 0 / 15%);
+    position: relative;
+}
+
+.add-cart-btn,
+.add-cart-btn:hover {
+    text-align: center;
+    // margin-top: -15px;
+
+    button {
+        background-color: #ff7800;
+        color: #fff !important;
+        font-weight: bold;
+        border: none;
+        box-shadow: 0px 7px 10px rgb(0 0 0 / 15%);
+    }
+}
+
+.card-sec {
+    margin-top: -322px;
+}
+
+.modal-title {
+    background: linear-gradient(45deg, #ff7800, #ff8b24);
+    margin-top: -45px;
+    box-shadow: 0px 7px 10px rgb(0 0 0 / 15%);
+}
+
+.ant-form-item {
+    label {
+        flex-direction: row-reverse;
+        gap: 5px;
+        font-weight: bold;
+    }
+}
+
+.add-new-btn,
+.add-new-btn:hover {
+    border-radius: 8px;
+    background: #000 !important;
+
+}
+
+
+.out-of-stock {
+    cursor: not-allowed;
+
+    .card {
+        filter: grayscale(1);
+
+        .out-stock-label {
+            display: block !important;
+            cursor: not-allowed;
+        }
+
+        .add-card-label {
+            display: none;
+        }
+    }
+
+}
+
+.out-stock-label {
+    display: none !important;
+}
+
+.scroll-to-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+        fill: #ff7800;
+    }
+}
+
+.ant-drawer-header-title {
+    flex-direction: row-reverse;
+
+    .ant-drawer-title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+}
+
+.cart-img{
+    img{
+        width: 50px;
+
+    }
+}
+
+.cart-count{
+    background: #ff7800;
+    color: #000;
+    border-radius: 50%;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    position: absolute;
+    margin: -40px 0px 0px 10px;
+    font-weight: bold;
+}
